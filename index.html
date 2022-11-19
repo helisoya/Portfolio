@@ -14,8 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
+	
+	</head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -27,9 +29,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">A propos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Accueil</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="aPropos.html">A propos</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,2115 +39,213 @@
         <!-- Masthead-->
         <header class="masthead bg-info text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/photo.png" alt="" />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Julien Oudot</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Etudiant</p>
-				<a class="btn btn-outline-light btn-social mx-1" href="https://helisoya.itch.io/"><i class="fab fa-fw fa-itch-io"></i></a>
+			
+				<div class="row justify-content-start">
+					<!-- Masthead Avatar Image-->
+					<div class="col-5">
+						<img class="masthead-avatar mb-5 rounded-circle " src="assets/img/photo.png" alt="Avatar" />
+					</div>
+					<div class="col-7">
+						<!-- Masthead Heading-->
+						<h1 class="masthead-heading text-uppercase mb-3">Julien Oudot</h1>
+						<h2 class="mb-4">Développeur de Jeu Vidéo</h2>
+						<p class="text-left mb-4">Je crée des jeux vidéos depuis 2020 dans mon temps libre.</p>
+						<div>
+							<a class="btn btn-primary mr-4" role="button" href="portfolio.html">Voir mes projets</a>
+							<a class="btn btn-secondary" role="button" href="aPropos.html">Me contacter</a>
+						</div>
+					</div>
+					
+				</div>
             </div>
         </header>
-        <!-- 2022-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">2022</h2>
-                <!-- Icon Divider-->
+		
+		<section class="page-section portfolio" id="dernierProjet">
+		    <div class="container my-5">
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-				     <!-- Japan man -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal29">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Platformer 2D
-								<br></br>
-								Temps de Dev : 3 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/JM.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- The Alchemist -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal28">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu d'aventure
-								<br></br>
-								Temps de Dev : 3 mois
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/TA.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Autumn Breeze -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal27">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu Cozy
-								<br></br>
-								Temps de Dev : 1 semaine
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/AB.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Harold's Basement 2 -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal26">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de Survie
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HB2.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Nova Kalia -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal25">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : RPG
-								<br></br>
-								Temps de Dev : 3 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/NK.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Color City -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal24">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de tir Top Down
-								<br></br>
-								Temps de Dev : 3 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/CC.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Politics (Démo Technique) -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal23">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Démo Technique
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Politics.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Anti Terror Force -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal22">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : FPS
-								<br></br>
-								Temps de Dev : 1 mois
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ATF.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Armageddon -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal21">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : RTS
-								<br></br>
-								Temps de Dev : 1 mois
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/A.png" alt="" />
-                        </div>
-                    </div>
-				     <!-- Star Fighter -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal20">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de vaisseau
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/StFt.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- 2021-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">2021</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-				     <!-- Harold's Quest - The Complete Saga -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal19">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Visual Novel
-								<br></br>
-								Temps de Dev : 3 mois
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HQCS.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Spooky Forest  -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal18">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu d'horreur
-								<br></br>
-								Temps de Dev : 1 semaine
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/SF.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Spooky Manor  -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal17">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu d'horreur
-								<br></br>
-								Temps de Dev : 1 semaine
-								<br></br>
-								Language : C++, SFML
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/SM.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- GSG 2  -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal16">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de Stratégie
-								<br></br>
-								Temps de Dev : 2 mois
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/GSG2.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Harold's Basement -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal15">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de Survie
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HB.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Casus Belli 3 -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal14">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de Stratégie
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : C#, Unity
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/CB3.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Harold's Quest 2 -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal13">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Visual Novel
-								<br></br>
-								Temps de Dev : 2 mois
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HQ2.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Fortress 2 -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de platforme
-								<br></br>
-								Temps de Dev : 1 mois
-								<br></br>
-								Language : C++,SFML,Objet
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Fortress2.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- The Basement -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Pseudo3D
-								<br></br>
-								Temps de Dev : 4 jours
-								<br></br>
-								Language : HTML,JavaScript
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Basement.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Expansion -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Visuel Aléatoire
-								<br></br>
-								Temps de Dev : 2 jours
-								<br></br>
-								Language : HTML,JavaScript
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Expansion.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Harold's Quest - Aftermath -->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Visual Novel
-								<br></br>
-								Temps de Dev : 2 semaines
-								<br></br>
-								Language : HTML,JavaScript
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HQ-A.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Fortress-->
-                    <div class="col-md-8 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de platforme
-								<br></br>
-								Temps de Dev : 2 mois
-								<br></br>
-								Language : Python, Objet
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Fortress.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- 2020-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">2020</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-			
-                    <!-- GSG-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de stratégie
-								<br></br>
-								Temps de Dev : 2 mois
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/GSG.png" alt="" />
-                        </div>
-                    </div>	
+                    <div class="divider-custom-line mb-4"></div>
+				</div>
+				<div class="row justify-content-start">
+					<div class="col-5 mr-4">
+						<img class="img-thumbnail rounded " src="assets/img/portfolio/JM.png" alt="" />
+					</div>
+					<div class="col-6">
+						<p class="text-primary mb-2">Mon Dernier Projet</p>
+						<h2 class="page-section-heading text-dark mb-4 font-weight-bold">Japan Man</h2>
+						<div class="mb-3">
+							<p class="badge badge-pill badge-secondary">C#</p>
+							<p class="badge badge-pill badge-secondary">Unity</p>
+						</div>
+						<p class="font-weight-bold">
+							Japan Man est un jeu de plateforme ou vous devez récupérer votre or qui a été volé par des allemands.
+						</p>
+						<p>
+							Le jeu fonctionne comme un platformer classique, avec plusieurs ajouts pour essayer de le rendre plus captivant.
+						</p>
+						<a class="btn btn-primary mr-4" role="button" href="jeux/japanMan.html">Découvrir le projet</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="page-section portfolio bg-info" id="Portolio">
+		    <div class="container my-5 text-center">
+			    <div class="divider-custom divider-light">
+                    <div class="divider-custom-line  mt-5"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-light mb-5 font-weight-bold">Mes derniers projets</h2>
+				
+				<div class="row justify-content-center">
+				
+					<!-- Dernier 1 !-->
+					<div class="col-5 mb-4 img-container">
+						<div class="carousel-caption img-text">
+							<span class="badge badge-pill badge-secondary p-2 text-left mr-4">C#</span>
+							<span class="font-weight-bold h4">Autumn Breeze</span>
+							<a href="jeux/autumnBreeze.html" class="stretched-link"></a>
+						</div>
+						
+						<img src="assets/img/portfolio/AB.png" class="img-acceuil" alt="...">
 
-                    <!-- Casus Belli 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de stratégie
-								<br></br>
-								Temps de Dev : 1 mois
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/CB2.png" alt="" />
-                        </div>
-                    </div>
+						<a href="jeux/autumnBreeze.html" class="stretched-link"></a>
+					</div>
 					
-                    <!-- Casus Belli-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de stratégie
-								<br></br>
-								Temps de Dev : 3 semaines
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/CB1.png" alt="" />
-                        </div>
-                    </div>
+					
+					<!-- Dernier 2 !-->
+					<div class="col-7 mb-4 img-container">
+						<div class="carousel-caption img-text">
+							<span class="badge badge-pill badge-secondary p-2 text-left mr-4">C#</span>
+							<span class="font-weight-bold h4">Color City</span>
+							<a href="jeux/colorCity.html" class="stretched-link"></a>
+						</div>
+						
+						<img src="assets/img/portfolio/CC.png" class="img-acceuil" alt="...">
+						<a href="jeux/colorCity.html" class="stretched-link"></a>
+					</div>
+					
+					
+					<!-- Dernier 3 !-->
+					<div class="col-7 mb-4 img-container">
+						<div class="carousel-caption img-text">
+							<span class="badge badge-pill badge-secondary p-2 text-left mr-4">C#</span>
+							<span class="font-weight-bold h4">Anti-Terror Force</span>
+							<a href="jeux/antiTerrorForce.html" class="stretched-link"></a>
+						</div>
+						
+						<img src="assets/img/portfolio/ATF.png" class="img-acceuil" alt="...">
+						<a href="jeux/antiTerrorForce.html" class="stretched-link"></a>
+					</div>
+					
+				
+					<!-- Dernier 4 !-->
+					<div class="col-5 mb-4 img-container">
+						<div class="carousel-caption img-text">
+							<span class="badge badge-pill badge-secondary p-2 text-left mr-4">C#</span>
+							<span class="font-weight-bold h4">Star Fighter</span>
+							<a href="jeux/starFighter.html" class="stretched-link"></a>
+						</div>
+						
+						<img src="assets/img/portfolio/StFt.png" class="img-acceuil" alt="...">
+						<a href="jeux/starFighter.html" class="stretched-link"></a>
+					</div>
+				</div>
+				<a class="btn btn-primary mr-4 text-center mb-4" role="button" href="portfolio.html">Voir plus</a>
+			</div>
+		</section>
+		
+		
+		
+		<section class="page-section portfolio" id="Experimentations">
+		    <div class="container my-5 text-center">
+			    <div class="divider-custom">
+                    <div class="divider-custom-line  mt-3"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold">Mes expérimentations</h2>
+				
+				<div class="row align-items-start">
+					<div class="col-12 row align-items-start mb-3">
+						<img src="assets/img/portfolio/TA.png" class="img-fluid rounded col-2" alt="...">
+						<p class="col-8 text-left font-weight-bold my-auto"> The Alchemist ( C# )</p>
+						<a class="btn btn-primary mr-4 text-center  my-auto" role="button" href="jeux/theAlchemist.html">Découvrir</a>
+					</div>
+					<div class="col-12 row align-items-start mb-3">
+						<img src="assets/img/portfolio/A.png" class="img-fluid rounded col-2" alt="...">
+						<p class="col-8 text-left font-weight-bold my-auto"> Armageddon ( C# )</p>
+						<a class="btn btn-primary mr-4 text-center  my-auto" role="button" href="jeux/armageddon.html">Découvrir</a>
+					</div>
+					<div class="col-12 row align-items-start mb-3">
+						<img src="assets/img/portfolio/HQCS.png" class="img-fluid rounded col-2" alt="...">
+						<p class="col-8 text-left font-weight-bold my-auto"> Harold's Quest - The Complete Saga ( C# )</p>
+						<a class="btn btn-primary mr-4 text-center  my-auto" role="button" href="jeux/haroldQuestCompleteSaga.html">Découvrir</a>
+					</div>
+				</div>
 
-                    <!-- Le Joyau du Nord-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : RPG Visuel
-								<br></br>
-								Temps de Dev : 2,5 mois
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/LJDN.png" alt="" />
-                        </div>
-                    </div>
+				<a class="btn btn-primary mr-4 text-center mb-4" role="button" href="portfolio.html">Voir plus d'expérimentations</a>
+			</div>
+		</section>
+		
+		
+		<section class="page-section portfolio bg-info" id="aPropos">
+		    <div class="container mt-5 text-center text-light">
+			    <div class="divider-custom divider-light">
+                    <div class="divider-custom-line  mt-5"></div>
+				</div>
+				<h2 class="page-section-heading text-center mb-5 font-weight-bold">A propos de moi</h2>
+				<div class="row mb-5">
+					<div class="col-4">
+						<div class="mb-3">
+							<i class="fas fa-phone mr-3"></i>
+							<span>Telephone</span>
+						</div>
+						<p><strong>07 83 78 68 59</strong></p>
+					</div>
+					<div class="col-4">
+						<div class="mb-3">
+							<i class="fas fa-envelope mr-3"></i>
+							<span>Mail</span>
+						</div>
+						<p><strong>oudot.julien@laposte.net</strong></p>
+					</div>
+					<div class="col-4">
+						<div class="mb-3">
+							<i class="fas fa-download mr-3"></i>
+							<span>CV</span>
+						</div>
+						<p><a href="cv.pdf"><strong>Télécharger</strong></a></p>
+					</div>
+				</div>
+				<div class="row justify-content-start ">
+					<div class="col-7">
+						<img class="mb-5 rounded-circle " src="assets/img/photo.png" alt="Avatar" style="width:250px;"/>
+					</div>
+					<div class="col-5">
+						<h2 class="mb-4">A propos de moi</h2>
+						<p class="text-left mb-4">Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée. Actuellement en BUT Informatique 2ème année. Créateur de nombreux projets dans le domaine du jeu vidéo.</p>
+					</div>
 					
-                    <!-- Harold's Quest-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Visual Novel
-								<br></br>
-								Temps de Dev : 1 mois
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/HQ1.png" alt="" />
-                        </div>
-                    </div>
-					
-                    <!-- Speedy Racing-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Jeu de course
-								<br></br>
-								Temps de Dev : 3 mois
-								<br></br>
-								Language : Unity, C#
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/SR.png" alt="" />
-                        </div>
-                    </div>
-					
-                    <!-- Daniel l'IA-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-								Type : Synthese Vocale
-								<br></br>
-								Temps de Dev : 1 semaine
-								<br></br>
-								Language : Python
-								</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Daniel.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-info text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">A propos</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead"> Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée.</p></div>
-                    <div class="col-lg-4 ml-auto"><p class="lead"> Etudie en BUT Informatique 2ème année.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead"> Crée de nombreux projets dans le domaine du jeu vidéo.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
-						<h6>Pour me contacter, adressez-moi un email à :</h6>
-						<h5>oudot.julien@laposte.net</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                    <!-- Footer Social Icons-->
-                    <div class=" text-center">
-                        <h4 class="text-uppercase mb-4">Sur le Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/helisoya"><i class="fab fa-fw fa-github"></i></a>
-						<a class="btn btn-outline-light btn-social mx-1" href="https://helisoya.itch.io/"><i class="fab fa-fw fa-itch-io"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+				</div>
+			</div>
+		</section>
+		
+		
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © 2021</small></div>
+			<div class="text-center">
+				<h4 class="text-uppercase mb-4">Sur le Web</h4>
+				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i class="fab fa-fw fa-github"></i></a>
+				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i class="fab fa-fw fa-itch-io"></i></a>
+				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+			</div>
+            <div class="container"><small>Copyright © 2022</small></div>
         </div>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
-        </div>
-		
-		
-        <!-- Portfolio Modals-->
-		
-		
-		
-        <!-- Casus Belli 1 Modal -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CB1.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de stratégie
-									</p>
-									<p class="mx-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p>
-									</div>
-								</div>
-								<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Casus Belli est un jeu de stratégie au tour par tour s'inspirant du RISK et codé sur Python. Il se joue avec 6 joueurs en partie locale. Le but du jeu est simple : conquérir toute les provinces de la carte.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									Au début de chaque tour, chaque joueur peut placer un certains nombres d'unités sur la carte. Il pourra ensuite attaquer les provinces qu'ils ne possède pas. Si il attaque avec plus d'unités que celles présentes sur la case attaquée, il gagne; sinon, il perd un certains nombres d'unités. Quand toute les provinces sont contrôlées par un seul joueur, la partie est fini.
-									<br></br>
-									Il existe deux modes de jeu pour varier le déroulement des parties : 
-									<br></br>
-									<br></br>
-									- On peut distribuer toute les provinces, laissant les joueurs prendre le contrôle des régions ou ils sont le plus présents.
-									<br></br>
-									- On peut également distribuer une seule province par joueur, ce qui va permettre la création de grands territoires et va rendre la partie plus difficile.
-									<br></br></p>
-									<a href="assets/video/CB1.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Casus Belli 2 Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CB2.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de stratégie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Casus Belli 2 est un jeu de stratégie proche du RISK dans ses règles, c'est aussi une amélioration de Casus Belli.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									 Le jeu ne change pas le fonctionnement général du jeu original, mais il l'améliore sur de nombreux points :
-									<br></br>
-									 - Le mode de jeu capitale a été ajouté : chaque joueur obtient une capitale en début de partie. Si il la perd, il perd toute ses provinces.
-									<br></br>
-									- De nombreuses cartes ont été ajoutés grâce à une simplification de la génération de ces dernières, laissant la possibilité aux joueurs de choisir entre une dizaine de cartes pour leur partie.
-									<br></br>
-									 - Un menu principal a été ajouté afin de choisir le nombre de joueurs, le mode de jeu et la carte. 
-									<br></br>
-									 - Des éléments visuels comme une flèche montrant la direction d'une attaque ont été ajoutés.
-									<br></br>
-									 - Un joueur a maintenant la possibilité de se rendre s'il le souhaite. </p>
-									<a href="assets/video/CB2.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Harold's Quest Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HQ1.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Visual Novel
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Harold's Quest est un histoire interactive codée en python et se basant sur une  association d'images, d'audios et de textes.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									 Le joueur doit réussir une quête : récupérer un trésor dans le château d’un Dragon. Mais ceci ne sera pas simple car de nombreux obstacles se dressent sur sa route... 
-									 <br></br>
-									 Le jeu comporte un gameplay unique pour une meilleure expérience de jeu. On trouve par exemple : 
-									<br></br>
-									 - Des compétences de personnage, qui permettent de réaliser différentes actions au cours de l'aventure. 
-									 <br></br>
-									 - Des objets à récupérer, qui seront utiles afin de réaliser certaines actions et de débloquer des fins spéciales. 
-									 <br></br>
-									 - Un inventaire fonctionnel montrant au joueur ses statistiques et ses objets. 
-									 <br></br>
-									 - Des choix ayant des répercutions sur l’histoire et pouvant faire basculer la chance en votre faveur. 
-									 <br></br>
-									 - Un système de sauvegarde automatique afin de pouvoir faire des pauses quand on le souhaite. </p>
-									<a href="assets/video/HQ1.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Harold's Quest - Aftermath Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HQ-A.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Visual Novel
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : HTML,JavaScript
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-                                    <!-- Portfolio Modal - Text-->
-									<p class="px-5 mb-4 h5 text-left text-primary">Harold's Quest - Aftermath est un "Visual Novel" codé en javascript et fonctionnant sur HTML. Il est la suite directe d'Harold's Quest et améliore le moteur de jeu existant.
-                                    </p>
-									<p class="mb-5 px-5 rounded text-left h6">
-									Le jeu dispose de nombreuses améliorations techniques qui lui permet d'être plus fluide et plus appréciable pour le joueur :
-									<br></br>
-									<br></br>
-									- L'utilisation de HTML et de CSS couplé au Javascript permet une amélioration graphique conséquente, avec des personnages animés ou un effet d'écriture du texte.
-									<br></br>
-									- Le jeu est disponible sur navigateur et sur téléphone car fonctionnant sur HTML. Toutes les dimensions d'écrans sont supportées, ce qui permet une grande flexibilité d'appareil.
-									<br></br>
-									- Les données des tableaux sont stockées dans un fichier XML au lieu d'être raccroché au programme principal, ce qui permet de fluidifier la lecture du jeu par le navigateur.
-									<br></br>
-									- Des combats réguliers ont été ajoutés, permettant de captiver le joueur dans son aventure. Ils demanderont de la réflexion pour pouvoir être fini.
-									<br></br>
-									- Malgré l'absence d'objets à récupérer, le jeu arrive à compenser par une narration pleine de suspens qui pourra faire passer un bon moment chez nombre de joueurs.</p>
-									<p class="text-center"><iframe src="https://helisoya.github.io/HQ-A" name="targetframe" allowTransparency="true" scrolling="no" height="700" width="webkit-fill-available" frameborder="2">
-									</iframe></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- GSG Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/GSG.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de stratégie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p> </div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">GSG est un jeu de stratégie en tour par tour codé en python. Dans celui-ci le joueur prend le contrôle d'un pays d'Europe afin d'essayer de le faire prospérer. Il reprend les codes du genre afin de créer un jeu immersif avec une IA imprévisible.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									 - Le joueur a la possibilité de choisir des "priorités nationales", qui lui permettront d'obtenir divers atout face aux autres pays du continent. Certains pays ont des arbres de "priorités nationales" unique.
-									<br></br>
-									- Il peut aussi obtenir des points de recherche, qui lui permettront d'améliorer la puissance militaire de son pays. Cela donnera un avantage certain face à l'IA.
-									 <br></br>
-									 - Il peut choisir quel sera le parti politique dirigeant dans son pays, ce qui lui donnera un drapeau unique selon son idéologie.
-									 <br></br>
-									 - Il peut effectuer des actions diplomatiques avec les autres pays d'Europe, en leur déclarant la guerre, en les influençant ou en s'alliant à eux. 
-									 <br></br>
-									 - S'il possède assez de provinces, le joueur peut former de nouveaux pays afin d'augmenter son prestige. 
-									 <br></br>
-									 - Le joueur devra faire face à une IA complète qui pourra effectuer les mêmes actions que le joueur, rendant les parties intenses. </p> 
-									<a href="assets/video/GSG.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Le Joyau Du Nord Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/LJDN.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : RPG Visuel
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2,5 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p> </div>	
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Le Joyau du Nord est un RPG visuel codé en python, reprenant les bases du moteur d'Harold's Quest. Dans ce jeu, le joueur doit aider une des 4 factions à stabiliser la région de la ville de Kalia, en proie à une terrible guerre avec ses puissants voisins.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									Le jeu possède de nombreuses caractéristiques, rendant son expérience de jeu agréable et unique. On trouve par exemple :
-									<br></br>
-									 - Un système de combat permettant d’accroître la difficulté du jeu. 
-									<br></br>
-									- Un système de compétences avancés, avec des statistiques primaires ainsi que des compétences secondaires. 
-									 <br></br>
-									 - Un système de notoriété, montrant au joueur ses alliées et ses ennemis. 
-									 <br></br>
-									 - Un système de temps dynamique avec un cycle jour-nuit, ainsi qu'un cycle météorologique. 
-									 <br></br>
-									 - Un région entière à parcourir avec de nombreux points d'intérêts. 
-									 <br></br>
-									 - Une centaines de quêtes permettant au joueur de gagner en expérience et en force.
-									 <br></br>
-									 - Des cinématiques simples de quelques secondes afin de montrer au joueur ou il se trouve.
-									 <br></br>
-									 - Un univers riche et détaillé, permettant une meilleur immersion pour le joueur.
-									 <br></br>
-									 - Un système d'inventaire afin de mieux s'équiper pour les combats. 
-									 <br></br>
-									 - Un système de succès afin d'améliorer l'expérience du joueur. </p>
-									<a href="assets/video/LJDN.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-        <!-- Speedy Racing Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SR.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de course
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Unity, C#
-									</p> </div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Speedy Racing est un Jeu de course codé sur Unity 3D et se basant sur une démo d’apprentissage à Unity. Malgré ce fait, de nombreuses fonctionnalités ont été ajoutés afin d'améliorer le potentiel du jeu, on trouve par exemple :
-									</p>
-                                    <p class="mb-5 text-left px-5 h6">
-									 - Un système de coupe et de course contre la montre, afin de donner différents modes de jeux au joueur.
-									 <br></br>
-									 - Des niveaux multiples et variés, afin d'apporter de la diversité dans les différentes courses.
-									 <br></br>
-									 - Un système de customisation du véhicule, pour permettre au joueur de changer la couleur de son kart et de son personnage.
-									 <br></br>
-									 - Un support manette complet, pour pouvoir jouer à la manette quand on le souhaite.
-									 <br></br>
-									 - Des traduction en anglais et en français de tout les textes du jeu.
-									 <br></br>
-									 - Un système de succès et de statistiques, afin de d'augmenter l'expérience de l'utilisateur.
-									 <br></br>
-									 - De l'audio personnalisé avec des musiques uniques pour chaque niveaux.
-									 <br></br>
-									 - Des temps de chargements personnalisés pour savoir ou l'on va jouer.
-									 <br></br>
-									 - Des véhicules en arrière-plan des niveaux afin d'améliorer l'immersion du joueur. </p>
-									<a href="assets/video/SR.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-        <!-- Fortress Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal8Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Fortress.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de platforme
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python, Objet
-									</p> </div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Fortress est un jeu de plateforme et de tir en 2D. Il est codé en objet sur python et s'inspire de jeux comme Mega Man. Dans ce jeu, le joueur doit explorer une forteresse dans laquelle il devra vaincre différents ennemis.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Le joueur peut sauter, s'accroupir, glisser ou sauter sur les murs afin de lui permettre une liberté de mouvement totale. Cela est permis par une utilisation de vecteurs qui facilitent le calcul des déplacement.
-									 <br></br>
-									 - Il peut aussi récolter différentes armes en battant les boss du jeu, elles sont toutes uniques et ont leurs propres caractéristiques. Le joueur peut les utiliser pour faciliter son avancée dans les différentes zones du jeu, ou n'utiliser que l'arme principale pour augmenter la difficulté du jeu. 
-									 <br></br>
-									 - La forteresse est un monde ouvert composé de 9 zones, comportant chacun environ 6 tableaux, qui représentent les niveaux. Ces niveaux sont tous uniques et testeront les capacités du joueur avant les combats plus dur. 
-									 <br></br>
-									 - Il existe 8 boss dans le jeu, chacun d'entre eux est unique et demandera de nombreux efforts pour en venir à bout. Leur IA est bien plus poussée que les ennemis classiques, ce qui permet de ne pas avoir de redondance dans leur comportement. </p>
-									<a href="assets/video/Fortress.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-        <!-- Daniel Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal9Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Daniel.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Synthese Vocale
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 semaine
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p> </div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Daniel est un programme codée en python simulant l'intelligence grâce à la synthèse vocale . Ce programme est sympathique et aime faire des blagues divers et variés selon le sujet de conversation.
-                                    <p class="mb-5 px-5 text-left h6"> 
-									 Il est conçu pour répondre à des questions scientifiques simples et variés tel que : 
-									<br></br>
-									 - Des Mathématiques avec des calculs relativement simples. 
-									 <br></br>
-									 - De la SVT avec des descriptions d’animaux ou de planètes.
-									<br></br>
-									- De la Physique avec le nom de tout les éléments périodiques entre autre. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!-- Expansion Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="portfolioModal10Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Expansion.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Visuel Aléatoire
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 jours
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : HTML,JavaScript
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-                                    <!-- Portfolio Modal - Text-->
-									<p class="px-5 mb-4 h5 text-left text-primary">Expansion est un programme aléatoire simulant l'expansion de couleurs sur des territoires donnés.
-                                    </p>
-									<p class="mb-5 px-5 rounded text-left h6">
-									Dans un carrée d'aire 50*50, une zone colorable est déterminée manuellement. Chaque pixels a l'écran à une chance sur 10 de colorier ses voisins, si ceux-ci ne sont pas bleu.
-									<br></br>
-									Il existe plusieurs cartes qui permettront d'avoir des variantes dans les expansions des couleurs.</p>
-									<p class="text-center"><iframe src="https://helisoya.github.io/Expansion" name="targetframe" allowTransparency="true" scrolling="no" height="500" width="70%" frameborder="2">
-									</iframe></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!-- The Basement Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-labelledby="portfolioModal11Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Basement.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Pseudo3D
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 4 jours
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : HTML,JavaScript
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-                                    <!-- Portfolio Modal - Text-->
-									<p class="px-5 mb-4 h5 text-left text-primary">The Basement est un jeu en pseudo3D dans lequel le joueur doit trouver la sortie de plusieurs niveaux.
-                                    </p>
-									<p class="mb-5 px-5 rounded text-left h6">
-									Les niveaux sont générés automatiquement à partir de fichiers textes afin de donner l'illusion de la 3D. Cela est fait grâce à la technique du Raycasting. Cette technique consiste à regarder la distance entre le joueur et les murs du niveaux afin de calculer la taille des rectangles les représentant.
-									<br></br>
-									Les couleurs de chaque niveaux sont choisis aléatoirement, permettant d'obtenir un visuel différent entre chacun d'entre eux.
-									<br></br>
-									Il y a la possibilité de jouer sur un ordinateur avec un clavier ou sur un téléphone à l'aide d'un pad conçu pour cela. 
-									<br></br>
-									Le jeu dispose d'un système de chronomètre afin de pouvoir faire des courses avec ses amis, mais attention à ne pas être trop lent...</p>
-									<input type="button" onclick="location.href='https://helisoya.github.io/TheBasement';" value="Jouer" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!-- Fortress 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-labelledby="portfolioModal12Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Fortress2.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de platforme
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C++,SFML,Object
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary">Fortress 2 est un jeu de plateforme et de tir en 2D. Il est codé en objet sur C++ et s'inspire de jeux comme Mega Man. Dans ce jeu, le joueur doit explorer une forteresse dans laquelle il devra vaincre différents ennemis. C'est une amélioration de Fortress.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Le joueur peut sauter, s'accroupir, glisser ou sauter sur les murs afin de lui permettre une liberté de mouvement totale. Cela est permis par une utilisation de vecteurs qui facilitent le calcul des déplacement.
-									 <br></br>
-									 - Il peut aussi récolter différentes armes en battant les boss du jeu, elles sont toutes uniques et sont efficace contre certains boss. Le joueur peut les utiliser pour faciliter son avancée dans les différentes zones du jeu, ou n'utiliser que l'arme principale pour augmenter la difficulté du jeu. 
-									 <br></br>
-									 - Si il le souhaite, le joueur peut trouver les 4 parties d'armure cachées dans le jeu afin d'augmenter sa force et de faciliter les combats. Elles lui permettront aussi de débloquer des tirs spéciaux avec toutes les armes. 
-									 <br></br>
-									 - Le jeu utilise un système de scrolling afin d'optimiser les déplacements du joueur : Si son déplacement le fait sortir de l'écran, on déplace le monde dans la direction opposée à la place, donnant l’illusion de se déplacer. 
-									 <br></br>
-									 - La forteresse est un monde ouvert et chaque niveaux peuvent être vu comme des tableaux de taille 100*100. L'utilisation de Tilemaps spécialisées est alors indispensable afin de permettre un chargement fluide entre les niveaux. 
-									 <br></br>
-									 - Il existe 9 boss dans le jeu, chacun d'entre eux est unique et demandera de nombreux efforts pour en venir à bout. Leur IA est bien plus poussée que les ennemis classiques, ce qui permet de ne pas avoir trop de redondance dans leur comportement. </p>
-									<a href="assets/video/Fortress2.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!-- harold's Quest 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-labelledby="portfolioModal13Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HQ2.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Visual Novel
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : Python
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Harold's Quest 2 est un visual novel codé en python. Il améliore les bases de ses prédécesseurs grâce à un moteur de jeu flexible. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Le joueur doit accomplir une quête dans un monde ouvert qui l’amènera à faire de nombreuses rencontres.
-									 <br></br>
-									 - Il peut récolter divers objets cachés dans le jeu, lui permettant de débloquer des fins spéciales.
-									 <br></br>
-									 - Le jeu fonctionne grâce un moteur de jeu qui permet de ne pas avoir à coder pour créer une aventure. C'est à dire que le moteur utilise des fichiers texte pour lier les différents parties du jeux.
-									 <br></br>
-									 - Le moteur permet aussi d'avoir des personnages animés qui bouge leur bouche quand ils parlent, et d'avoir des doublages.
-									 <br></br>
-									 - Le jeu se compose aussi de mini-jeux divers qui apparaîtront tout au long de l'aventure. 
-									</p>
-									<a href="assets/video/HQ2.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!-- Casus Belli 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-labelledby="portfolioModal14Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CB3.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de Stratégie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Casus Belli 3 est un jeu de stratégie codé sur Unity et s'inspirant des règles du jeu 'Axis & Allies'. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le joueur fait face à 5 IA sur une carte de l’Europe, pour gagner, il doit conquérir toute les provinces.
-									Pour cela, il dispose de des unités :
-									<br></br>
-									- Les soldats, fort en défense
-									<br></br>
-									- Les Tanks, fort en attaque
-									<br></br>
-									En utilisant ces unités, qui peuvent être construite dans des usines sur les provinces, le joueur peut user de stratagème afin de venir à bout de ses adversaires.
-									<br></br>
-									L'IA réagit aux attaques du joueur et peut réaliser les mêmes actions que lui.
-									Sa conception bien que simple permet de contrer facilement les attaques d'un joueur peu attentif.
-									</p>
-									<a href="assets/video/CB3.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!--Harold's Basement-->
-        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-labelledby="portfolioModal15Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HB.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de Survie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Harold's Basement est un jeu de survie codé sur Unity et imitant le rendu de la pseudo3D. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le Joueur doit trouver la sortie de 6 niveaux dans lesquelles il devra faire face à de nombreux dangers :
-									<br></br>
-									-Il est poursuivi par Harold, qui est codé avec le système de Navmesh. Si il voit le joueur, il le poursuit. Sinon, il va à des endroits aléatoire dans le niveau.
-									<br></br>
-									-Certaines portes seront fermées à clés et il faudra trouver celle correspondante afin de l'ouvrir.
-									<br></br>
-									-Certaines statues sont fourbes et donnent votre emplacement à Harold quand vous vous en approchez trop.
-									<br></br>
-									-Des téléporteurs qui permettent à Harold et au joueur de se déplacer dans des endroits jusqu'ici inaccessible.
-									</p>
-									<a href="assets/video/HB.webm">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!--GSG 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-labelledby="portfolioModal16Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/GSG2.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de Stratégie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> GSG 2 est un jeu de stratégie en 3D codé sur Unity. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le Joueur contrôle un pays d'Europe et doit faire face à ses voisins :
-									<br></br>
-									- Les pays d'Europe sont contrôlés par des IA imprévisibles qui peuvent s’avérer dure à battre.
-									<br></br>
-									- Pour faire face à eux, le joueur peut créer une armée qu'il pourra ensuite améliorer afin de devenir plus fort.
-									<br></br>
-									- Il pourra aussi choisir une priorité nationale qui lui donnera un avantage dans le jeu.
-									<br></br>
-									- Il peut aussi changer d'idéologie politique et former des états vassaux.
-									<br><br>
-									- Enfin, il peut former des pays plus grand afin de faire ce qu'il veux.
-									<br><br>
-									- Le jeu dispose aussi d'un cycle jour/nuit et d'un système faisant apparaître des nuages.
-									</p>
-									<a href="assets/video/GSG2.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!--Spooky Manor-->
-        <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-labelledby="portfolioModal17Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SM.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu d'horreur
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 semaine
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C++, SFML
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Spooky Manor est un jeu d'horreur codé en C++. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le Joueur doit trouver la sortie dans un labyrinthe généré aléatoirement :
-									<br></br>
-									- Le labyrinthe est généré sur un carré de taille 20, dont l'une des cases est la sortie.
-									<br></br>
-									- Le joueur doit donc de déplacer de salle en salle afin de trouver la sortie.
-									<br></br>
-									- Il peut se servir d'une carte montrant les salles explorés afin de se repérer.
-									<br></br>		
-									- Il doit cependant faire attention au différents monstres habitant le labyrinthe, ceux-ci sont tous différents et vont du cadeau explosif au monstre aveugle.
-									</p>
-									<a href="assets/video/SM.webm">Voir une démonstration vidéo</a>
-									<br>
-									<iframe src="https://itch.io/embed/1678822" width="552" height="167" frameborder="0"><a href="https://helisoya.itch.io/spooky-manor">Spooky Manor by helisoya</a></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		        <!--Spooky Forest-->
-        <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-labelledby="portfolioModal18Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SF.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu d'horreur
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 semaine
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Spooky Forest est un jeu d'horreur multijoueur codé sur Unity. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Les joueurs doivent trouver les 8 pages éparpillés dans une forêt afin de gagner.
-									<br>
-									Il se feront cependant attaquer par Spooky, qui leur infligera des dégâts si ils le regarde.
-									<br>
-									Le jeu fonctionne en multijoueur et il peut y avoir autant de joueur que voulu.
-									</p>
-									<a href="assets/video/SF.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-				        <!--Harold's Quest - The Complete Saga-->
-        <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-labelledby="portfolioModal19Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HQCS.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Visual Novel
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> Harold's Quest - The Complete Saga est un visual novel codé sur Unity. Il reprend les bases de ses prédécesseurs. 
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Le joueur peut réaliser différentes quêtes séparés en histoires.
-									 <br></br>
-									 - Il peut aussi récolter des objets secrets qui lui permettront de débloquer de nouvelles histoires.
-									 <br></br>
-									 - Le jeu se compose de mini-jeux divers qui apparaîtront tout au long des aventures. 
-									</p>
-									<a href="assets/video/HQCS.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-				        <!--Star Fighter-->
-        <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-labelledby="portfolioModal20Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/StFt.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de vaisseau
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Star Fighter est un jeu de vaisseau dans lequel le joueur doit vaincre des aliens.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Le joueur doit détruire des cibles dans différentes missions, ce qui lui rapporte des points.
-									 <br></br>
-									 - Ces points pourront lui permettre d'acheter des améliorations ainsi que de nouveaux tirs. 
-									 <br></br>
-									 - Chaque tir a une propriété différente qui le démarque des autres.
-									 <br></br>
-									 - Les ennemis et les lieux diffèrent aussi d'une mission à une autre.
-									</p>
-									<a href="assets/video/StFt.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-				        <!--Armageddon-->
-        <div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-labelledby="portfolioModal21Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/A.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : RTS
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Armageddon est un RTS dans lequel le joueur doit unifier l'Angleterre.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 - Pour gagner, il doit prendre le contrôle de toute les provinces du jeu.
-									 <br><br>
-									 - Le joueur peut choisir l'une des différents nations afin d'atteindre ce but.
-									 <br></br>
-									 - La carte est divisé en plusieurs sous-régions, le joueur devant unifier sa sous-région de départ avant d'attaquer les autres. Mais une fois sa région unifié, les autres régions le seront à leur tour.
-									 <br></br>
-									 - Chaque province possède son propre revenu et sa religion, qui auront des effets positifs ou négatifs selon la nation du joueur.
-									 <br></br>
-									 - Si la religion majoritaire du pays n'est pas la religion officielle du pays, une rébellion prendra place.
-									</p>
-									<a href="assets/video/A.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-				        <!--Anti Terror Force-->
-        <div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-labelledby="portfolioModal22Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ATF.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : FPS
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Anti Terror Force est un FPS humoristique dans lequel le joueur incarne un agent du GIGN. Il s'inspire du jeu du même nom sorti en 2005.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 Le joueur doit effectuer des missions dans différentes partis du monde pour sauver le président.
-									 <br><br>
-									 - Il possède un arsenal d'armes variés pour cela.
-									 <br></br>
-									 - Les ennemis peuvent patrouiller afin de rechercher le joueur. Cela donne un aspect infiltration a certains niveaux.
-									</p>
-									<a href="assets/video/ATF.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-				        <!--Politics (Démo Technique)-->
-        <div class="portfolio-modal modal fade" id="portfolioModal23" tabindex="-1" role="dialog" aria-labelledby="portfolioModal23Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Politics.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Démo Technique
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Politics est une démo technique m'ayant permis de m’entraîner à développer plusieurs fonctionnalités. Le jeu devait âtre à la base une simulation de vie politique.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									 Bien que non fini, la démo possède plusieurs systèmes intéressants :
-									 <br><br>
-									 - Un éditeur de personnage permettant de créer le personnage que l'on veut, avec les couleurs que l'on veut.
-									 <br></br>
-									 - De même,un éditeur de parti permet de créer son parti avec son logo.
-									 <br><br>
-									 - La démo permet de changer la langue, ce qui est possible en mettant les textes du jeu dans des fichiers a part.
-									 <br><br>
-									 - Un système de budget est présent, il permet d'allouer un budget fixé entre plusieurs groupes. Le tout est visible par le biais d'un graphe.
-									</p>
-									<a href="assets/video/Politics.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--Color City-->
-        <div class="portfolio-modal modal fade" id="portfolioModal24" tabindex="-1" role="dialog" aria-labelledby="portfolioModal24Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CC.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de Tir Top Down
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Color City est un jeu de tir en vue du dessus codé sur Unity.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Les règles du jeu sont simples : éliminer tout les ennemis dans chaque niveau.
-									<br><br>
-									- Chaque niveau est divisé en plusieurs zones qui comportent des ennemis différents.
-									<br></br>
-									- Les ennemis ont une AI suffisamment intelligente pour pouvoir vaincre le joueur.
-									<br><br>
-									- A cause de cela, l'aspect infiltration du jeu est important, il faut éviter de se faire repérer.
-									<br><br>
-									- Les couleurs du monde ont été réfléchi pour être assez épuré, avec beaucoup de blanc et de gris.
-									</p>
-									<a href="assets/video/CC.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--Nova Kalia-->
-        <div class="portfolio-modal modal fade" id="portfolioModal25" tabindex="-1" role="dialog" aria-labelledby="portfolioModal25Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/NK.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : RPG
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Nova Kalia est un RPG codé en C# sur Unity dans le but de m’entraîner à la réalisation de jeu de type RPG.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Bien que les fonctionnalités de ce jeu soient sommaires, j'ai pu réaliser certains aspect important dans un RPG :
-									<br><br>
-									- Le joueur peut se déplacer sur une carte comportant plusieurs villes ainsi que des ennemies se déplaçant aléatoirement.
-									<br></br>
-									- Les ennemis ont une AI leur permettant de basculer d'un mode passive à un mode agressif selon si le joueur les attaque.
-									<br><br>
-									- Un système de quête à été implémenté afin de permettre au joueur de suivre une petite histoire et de lui offrir des défis.
-									<br><br>
-									- En battant des ennemis et en finissant des quêtes, le joueur gagne de l'exp qui peut lui faire monter des niveaux.
-									</p>
-									<a href="assets/video/NK.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--Harold's Basement 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal26" tabindex="-1" role="dialog" aria-labelledby="portfolioModal26Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HB2.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu de survie
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 2 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Harold's Basement 2 est un jeu de survie ou vous devez trouver la sortie d'un labyrinthe généré procéduralement.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le jeu garde la plupart des fonctionnalités du jeu précédent mais possède de nouveaux ajouts pour le rendre moins répétitif. 
-									<br><br>
-									- Le but reste le même : trouver la sortie tout en évitant Harold et ses statues.
-									<br></br>
-									- Le labyrinthe est généré procéduralement a chaque niveau, ce qui le rend différent à chaque partie.
-									<br><br>
-									- Il existe 2 modes de jeu : Jouer sur un seul niveau en choisissant sa taille ou jouer en mode infini. Dans ce mode, vous devez tenter d'atteindre le niveau le plus élevé sans jamais vous faire attraper.
-									</p>
-									<a href="assets/video/HB2.mp4">Voir une démonstration vidéo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--Autumn Breeze-->
-        <div class="portfolio-modal modal fade" id="portfolioModal27" tabindex="-1" role="dialog" aria-labelledby="portfolioModal27Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/AB.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu Cozy
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 1 semaine
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Autumn Breeze est un jeu crée pour le Cozy Autumn Game Jam 2022.
-									</p>
-                                    Le principe du jeu est simple et en adéquation avec le thème "Cozy" de la Jam : se promener dans une forêt pour trouver des citrouilles. 
-									<br><br>
-									- Bien que le concept est simple, les graphismes ont été travaillés pour concorder avec la palette de couleurs optionnelle de la Game Jam.
-									<br><br>
-									
-									</p>
-									<iframe src="https://itch.io/embed/1705938" width="552" height="167" frameborder="0"><a href="https://helisoya.itch.io/autumn-breeze">Autumn Breeze by helisoya</a></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--The Alchemist-->
-        <div class="portfolio-modal modal fade" id="portfolioModal28" tabindex="-1" role="dialog" aria-labelledby="portfolioModal28Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TA.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Jeu d'aventure
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 mois
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									The Alchemist est un jeu d'aventure inspiré de Stardew Valley ou vous devez créez différentes potions pour aider vos voisins.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Bien qu'il ne soit pas entièrement fini par manque de temps, il reste assez complexe :
-									<br><br>
-									- Le système de craft et de recette permet de visualiser et créer toute les recettes que l'on veux.
-									<br><br>
-									- Le jeu fonctionne avec un système jour / nuit rendant les parties de nuit plus difficiles. Les saisons sont aussi présentes et changent les décors de la région.
-									<br><br>
-									- Il y a de nombreux effets de potions différents, comme le  soin ou l'invisibilité.
-									<br><br>
-									- Les villageois suivent des routines, donnant plus de vie au village.
-									<br><br>
-									- Un système de traduction anglais / français permet de changer de langue rapidement.
-									<br><br>
-									- Les plantes utilisées pour les potions apparaissent aléatoirement chaque matin dans le monde.
-									</p>
-									<iframe src="https://itch.io/embed/1718468" width="552" height="167" frameborder="0"><a href="https://helisoya.itch.io/the-alchemist">The Alchemist by helisoya</a></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<!--Japan Man-->
-        <div class="portfolio-modal modal fade" id="portfolioModal29" tabindex="-1" role="dialog" aria-labelledby="portfolioModal29Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/JM.png" alt="" />
-									<div class="Flex_Container mb-5">
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Type : Platformer 2D
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Temps de Dev : 3 semaines
-									</p>
-									<p class="mb-3 px-2 rounded bg-primary text-uppercase text-white">
-									Language : C#, Unity
-									</p></div>
-									</div>
-									<div class="col-lg-11">
-									<p class="px-5 mb-4 h5 text-left text-primary"> 
-									Japan Man est un jeu de plateforme ou vous devez récupérer votre or qui a été volé par des allemands.
-									</p>
-                                    <p class="mb-5 text-left px-5 h6"> 
-									Le jeu fonctionne comme un platformer classique, avec plusieurs ajouts pour essayer de le rendre plus captivant :
-									<br><br>
-									- Les points récoltés permettent d'acheter des améliorations a la fin de chaque niveaux (plus de vie, sauts plus haut,...)
-									<br><br>
-									- Des boss a la fin de chaque niveaux permettent d'augmenter un peu la difficulté, chacun ayant des attaques différentes.
-									<br><br>
-									- Il existe plusieurs éléments qui permettent de rendre le jeu plus unique, comme l'inversion de gravité, des lasers et autre.
-									<br><br>
-									- Le jeu comporte un système de succès intégré, qui permet d'obtenir des challenges supplémentaires.
-									<br><br>
-									- De plus, un mode de jeu "boss rush" permet de combattre tout les boss du jeux un par un pour plus de difficulté.
-									</p>
-									<iframe src="https://itch.io/embed/1757779" width="552" height="167" frameborder="0"><a href="https://helisoya.itch.io/japan-man">Japan Man by helisoya</a></iframe>
-									<br><br>
-									<a data-label="google_play" href="https://play.google.com/store/apps/details?id=com.caribou.japanman" class="google_play_btn store_btn"><img src="https://static.itch.io/images/store_badges/google.png" srcset="https://static.itch.io/images/store_badges/google.png 1x, https://static.itch.io/images/store_badges/google@2x.png 2x"></a>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
+
+
 		<!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
 	
 
 </html>
