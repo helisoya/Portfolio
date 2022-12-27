@@ -1,7 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+
+/* Text colors */
+
+.text-dark-blue{
+  color: #28293E;
+}
+
+.text-dark-brown{
+  color: #391400;
+}
+
+.text-dark-orange{
+  color: #EF6D58;
+}
+
+.text-light-orange{
+  color: #EF6D58;
+}
+
+.text-white{
+  color: #FFFFFF;
+}
+
+
+/* Background colors */
+
+.background-dark-blue{
+  background-color: #28293E;
+}
+
+.background-dark-brown{
+  background-color: #391400;
+}
+
+.background-dark-orange{
+  background-color: #EF6D58;
+}
+
+.background-light-orange{
+  background-color: #EF6D58;
+}
+
+.background-white{
+  background-color: #FFFFFF;
+}
+
+
+/* Fonts */
+
+h1{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+
+h2{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+h3{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h4{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h5{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;  
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+p.large{
+  font-size: 20px;
+}
+
+
+
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Epilogue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 #mainNav .navbar-brand {
