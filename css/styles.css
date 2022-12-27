@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;700;800&display=swap');
 
+/* Opactiy */
+
+.opacity-80{
+  opacity:80%;
+}
+
 /* Text colors */
 
 .text-dark-blue{
@@ -114,6 +120,35 @@ p.large{
 }
 
 
+/* Buttons */
+
+.button-orange{
+  padding: 18px 25px;
+  border-radius: 30px;
+  background-color: #EF6D58;
+  color: #FFFFFF;
+  transition: background-color 0.5s;
+}
+
+.button-orange:hover{
+  text-decoration:none;
+  background-color: #D15541;
+  color: #FFFFFF;
+}
+
+.button-transparent{
+  padding: 18px 25px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+
+.button-transparent:hover{
+  text-decoration:none;
+  color: #FFFFFF;
+  opacity: 80%;
+}
+
 /* Navigation */
 
 #main-nav{
@@ -131,6 +166,7 @@ nav li:not(:last-child){
 
 nav li a{
   color: #FFFFFF;
+  transition: 500ms;
 }
 
 nav li a:hover{
@@ -156,26 +192,22 @@ nav li a.active{
 }
 
 
+/* Master header */
 
-
-
-
-
-
-.masthead {
+#master-header {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 4.375rem;
 }
-.masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
-}
-.masthead .masthead-subheading {
-  font-size: 1.25rem;
-}
-.masthead .masthead-avatar {
+
+.masthead-avatar {
   width: 15rem;
 }
+
+
+
+
+
+
 
 .img-acceuil {
   width:100%;
