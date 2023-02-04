@@ -185,6 +185,18 @@ p.large{
   background-color: #FFFFFF;
 }
 
+/* Links */
+
+.link-orange{
+  color: #EF6D58;
+  transition: background-color 0.5s;
+}
+
+.link-orange:hover{
+  color: #D15541;
+  text-decoration: none;
+}
+
 /* Badges */
 
 .badge{
@@ -357,8 +369,36 @@ header {
 }
 
 
+/* Experiments */
 
+.experiment-item{
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom:12px;
+}
 
+.experiment-item img{
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 24px;
+  border-radius: 8px;
+}
+
+.experiment-item p.text-dark-brown{
+  text-align: left;
+  flex-grow: 2;
+}
+
+.experiment-item:hover{
+  text-decoration: none;
+}
+
+.divider{
+  background-color: #ef6d5857;
+  height: 1px;
+}
 
 
 .divider-custom {
