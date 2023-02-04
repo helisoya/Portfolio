@@ -181,7 +181,8 @@ p.large{
 
 .button-outlined:hover{
   text-decoration:none;
-  color: #FFFFFF;
+  color: #28293E;
+  background-color: #FFFFFF;
 }
 
 /* Badges */
@@ -262,7 +263,6 @@ header {
 /* Projects grid */
 
 .projects-grid{
-  margin-top: 6.25rem;
 }
 
 .project-card{
@@ -275,7 +275,6 @@ header {
   object-fit:fill;
   border-radius: 8px;
 }
-
 
 .project-card .overflow {
   opacity : 0;
@@ -292,24 +291,21 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
- }
- 
+}
+
 .project-card:hover .overflow {
   opacity : 1; 
- }
+}
  
 .project-card:hover img {
   opacity : 0.5; 
- }
-
-
+}
 
 .img-acceuil {
   width:100%;
   height:300px;
   object-fit:fill;15:14 18/11/2022	
 }
-
 
 .portfolio .portfolio-item {
   cursor: pointer;
@@ -319,6 +315,7 @@ header {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -327,9 +324,11 @@ header {
   opacity: 0;
   background-color: rgba(80, 80, 150, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
@@ -338,12 +337,14 @@ header {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
 }
+
 .portfolio-modal .close {
   position: absolute;
   z-index: 1;
@@ -354,6 +355,11 @@ header {
   color: #17a2b8;
   opacity: 1;
 }
+
+
+
+
+
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
