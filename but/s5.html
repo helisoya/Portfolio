@@ -1,157 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Julien Oudot - Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="../css/styles.css" rel="stylesheet" />
-	
-	</head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Julien Oudot</a>
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-info text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../index.html">Accueil</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../portfolio.html">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../but.html">BUT</a></li>
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../aPropos.html">A propos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-		
 
-		<section class="masthead bg-info text-light" id="aPropos">
-		    <div class="container">
-				<a class="btn btn-primary mb-4" href="../but.html">Retour</a>
-				<h2 class="font-weight-bold pb-4">SAE S5-6</h2>
-				<p class="pb-2">Ce projet a été réalisé dans un groupe de 3. Le but était de créer un logiciel de remise en forme, similaire à Just Dance, pour une association belfortaine. Son role étant de rendre les séances de sport plus attractive, avec un modèle montrant les mouvements à faire à l'écran. Il a été créé avec le moteur de jeu Unity.</p>
-				<p class="pb-2">Une application mobile avait aussi été créée, afin de permettre au responsable de séance de spécifier qui a réussi les différents exercices. Cela permet à la suite de créer des statistiques sur les participants.</p>
-				<p class="pb-2">Lors du S6, des microcontrôleurs ont été ajoutés afin de permettre de détecter automatiquement si les participants réussissent  les mouvements. Cependant, la fonctionnalité est restée expérimentale, et n'a pas été activée dans la version finale.</p>
-				<p class="pb-2">Le projet avait été commencé par des étudiants de Licence l'année précédente. Cependant, puisqu'il ne répondait pas aux attentes de l'association, il a été nécessaire de reprendre de zéro.</p>
-				
-				<div class="text-center my-5">
-					<img class="img-fluid" src="../assets/img/but/screenshots/s5.png" alt="MainLogo">
-				</div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
 
-				
-				<h3 class="text-warning pb-2">Mon travail</h3>
-				<p>Durant cette SAE, j'ai pris la position de chef de projet. J'ai aussi effectué plusieurs tâches  :<p>
-				<p>
-					- <strong>Gérer la répartition du travail</strong> au sein du groupe, en prenant en compte les forces et les faiblesses de chacun.
-					<br></br>
-					- <strong>Coder le déroulement d'un exercice</strong>. Cela permet, lors du lancement d'un exercice, de lancer les animations de manière synchronisée.
-					<br></br>
-					- <strong>Coder le backend de la partie mobile</strong>, ainsi que le <strong>serveur</strong> permettant de la relier au logiciel. 
-					<br></br>
-					- <strong>Créer la base de données JSON</strong> du logiciel. Cette dernière permet de stocker les informations sur les sessions et les utilisateurs.
-					<br></br>
-					- Utiliser un <strong>microcontrôleur et un gyroscope</strong> afin de déterminer si un participant a réussi ses mouvements de manière automatique.
-				</p>
-				
-				<br><br>
-				
-				<h3 class="text-warning pb-2">Les Compétences</h3>
-				<p>Ce projet m'a permis de développer plusieurs compétences :</p>
-				<p>
-					- <strong>Gérer une équipe</strong> de 3 personnes (C6).
-					<br></br>
-					- <strong>Utiliser un moteur de jeu</strong> pour créer un logiciel. Le tout en utilisant des bibliothèques dédiées, permettant de travailler plus facilement et rapidement. (C2)
-					<br></br>
-					- <strong>Faire évoluer un projet existant</strong>. En effet, le projet initial ne répondait pas aux attentes. J'ai donc dû imaginer avec mes camarades un nouveau logiciel répondant à ces dernières. (C1)
-					
-				</p>
-				
-				<br><br>
-				
-				<h3 class="text-warning pb-2">Retour réflexif</h3>
-				<p>Au final, je pense avoir bien réussi cette SAE :</p>
-				<p>- L'utilisation de la méthode agile a permis d'organiser le travail de manière efficace, en fonction des forces et des faiblesses des membres du groupe.</p>
-				<p>- Au final, l'association Équilibre, notre client, a été satisfaite de notre travail. Le logiciel est utilisé de temps en temps pour animer certaines séances.</p>
-				<p>- J'aurais cependant aimé travailler plus les graphismes du logiciel. En effet, nos compétences en la matière étant limitées, le résultat final n'est pas forcément celui qui était envisagé au départ.</p>
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Julien Oudot</a>
+			<button
+				class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-info text-white rounded"
+				type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation">
+				Menu
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+							href="../index.html">Accueil</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+							href="../portfolio.html">Portfolio</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+							class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+							href="../but.html">BUT</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+							href="../aPropos.html">A propos</a></li>
+				</ul>
 			</div>
-		</section>
-		
+		</div>
+	</nav>
 
 
-		<section class="page-section portfolio bg-info" id="aPropos">
-		    <div class="container mt-5 text-center text-light">
-			    <div class="divider-custom divider-light">
-                    <div class="divider-custom-line  mt-5"></div>
+	<section class="masthead bg-info text-light" id="aPropos">
+		<div class="container">
+			<a class="btn btn-primary mb-4" href="../but.html">Retour</a>
+			<h2 class="font-weight-bold pb-4">SAE S5-6</h2>
+			<p class="pb-2">Ce projet a été réalisé dans un groupe de 3. Le but était de créer un logiciel de remise en
+				forme, similaire à Just Dance, pour une association belfortaine. Son role étant de rendre les séances de
+				sport plus attractive, avec un modèle montrant les mouvements à faire à l'écran. Il a été créé avec le
+				moteur de jeu Unity.</p>
+			<p class="pb-2">Une application mobile avait aussi été créée, afin de permettre au responsable de séance de
+				spécifier qui a réussi les différents exercices. Cela permet à la suite de créer des statistiques sur
+				les participants.</p>
+			<p class="pb-2">Lors du S6, des microcontrôleurs ont été ajoutés afin de permettre de détecter
+				automatiquement si les participants réussissent les mouvements. Cependant, la fonctionnalité est restée
+				expérimentale, et n'a pas été activée dans la version finale.</p>
+			<p class="pb-2">Le projet avait été commencé par des étudiants de Licence l'année précédente. Cependant,
+				puisqu'il ne répondait pas aux attentes de l'association, il a été nécessaire de reprendre de zéro.</p>
+
+			<div class="text-center my-5">
+				<img class="img-fluid" src="../assets/img/but/screenshots/s5.png" alt="MainLogo">
+			</div>
+
+
+			<h3 class="text-warning pb-2">Mon travail</h3>
+			<p>Durant cette SAE, j'ai pris la position de chef de projet. J'ai aussi effectué plusieurs tâches :
+			<p>
+			<p>
+				- <strong>Gérer la répartition du travail</strong> au sein du groupe, en prenant en compte les forces et
+				les faiblesses de chacun.
+				<br></br>
+				- <strong>Coder le déroulement d'un exercice</strong>. Cela permet, lors du lancement d'un exercice, de
+				lancer les animations de manière synchronisée.
+				<br></br>
+				- <strong>Coder le backend de la partie mobile</strong>, ainsi que le <strong>serveur</strong>
+				permettant de la relier au logiciel.
+				<br></br>
+				- <strong>Créer la base de données JSON</strong> du logiciel. Cette dernière permet de stocker les
+				informations sur les sessions et les utilisateurs.
+				<br></br>
+				- Utiliser un <strong>microcontrôleur et un gyroscope</strong> afin de déterminer si un participant a
+				réussi ses mouvements de manière automatique.
+			</p>
+
+			<br><br>
+
+			<h3 class="text-warning pb-2">Les Compétences</h3>
+			<p>Ce projet m'a permis de développer plusieurs compétences :</p>
+			<p>
+				- <strong>Gérer une équipe</strong> de 3 personnes (C6).
+				<br></br>
+				- <strong>Utiliser un moteur de jeu</strong> pour créer un logiciel. Le tout en utilisant des
+				bibliothèques dédiées, permettant de travailler plus facilement et rapidement. (C2)
+				<br></br>
+				- <strong>Faire évoluer un projet existant</strong>. En effet, le projet initial ne répondait pas aux
+				attentes. J'ai donc dû imaginer avec mes camarades un nouveau logiciel répondant à ces dernières. (C1)
+
+			</p>
+
+			<br><br>
+
+			<h3 class="text-warning pb-2">Retour réflexif</h3>
+			<p>Au final, je pense avoir bien réussi cette SAE :</p>
+			<p>- L'utilisation de la méthode agile a permis d'organiser le travail de manière efficace, en fonction des
+				forces et des faiblesses des membres du groupe.</p>
+			<p>- Au final, l'association Équilibre, notre client, a été satisfaite de notre travail. Le logiciel est
+				utilisé de temps en temps pour animer certaines séances.</p>
+			<p>- J'aurais cependant aimé travailler plus les graphismes du logiciel. En effet, nos compétences en la
+				matière étant limitées, le résultat final n'est pas forcément celui qui était envisagé au départ.</p>
+		</div>
+	</section>
+
+
+
+	<section class="page-section portfolio bg-info" id="aPropos">
+		<div class="container mt-5 text-center text-light">
+			<div class="divider-custom divider-light">
+				<div class="divider-custom-line  mt-5"></div>
+			</div>
+			<h2 class="page-section-heading text-center mb-5 font-weight-bold">A propos de moi</h2>
+			<div class="row mb-5 justify-content-center">
+
+				<div class="col-4">
+					<div class="mb-3">
+						<i class="fas fa-envelope mr-3"></i>
+						<span>Mail</span>
+					</div>
+					<p><strong>oudot.julien@laposte.net</strong></p>
 				</div>
-				<h2 class="page-section-heading text-center mb-5 font-weight-bold">A propos de moi</h2>
-				<div class="row mb-5">
-					<div class="col-4">
-						<div class="mb-3">
-							<i class="fas fa-phone mr-3"></i>
-							<span>Telephone</span>
-						</div>
-						<p><strong>07 83 78 68 59</strong></p>
+				<div class="col-4">
+					<div class="mb-3">
+						<i class="fas fa-download mr-3"></i>
+						<span>CV</span>
 					</div>
-					<div class="col-4">
-						<div class="mb-3">
-							<i class="fas fa-envelope mr-3"></i>
-							<span>Mail</span>
-						</div>
-						<p><strong>oudot.julien@laposte.net</strong></p>
-					</div>
-					<div class="col-4">
-						<div class="mb-3">
-							<i class="fas fa-download mr-3"></i>
-							<span>CV</span>
-						</div>
-						<p><a href="../cv.pdf"><strong>Télécharger</strong></a></p>
-					</div>
-				</div>
-				<div class="row justify-content-start">
-					<div class="col-7">
-						<img class="mb-5 rounded-circle " src="../assets/img/photo.png" alt="Avatar" style="width:250px;"/>
-					</div>
-					<div class="col-5">
-						<h2 class="mb-4">A propos de moi</h2>
-						<p class="text-left mb-4">Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée. Actuellement en BUT Informatique 3ème année. Créateur de nombreux projets dans le domaine du jeu vidéo.</p>
-					</div>
-					
+					<p><a href="../cv.pdf"><strong>Télécharger</strong></a></p>
 				</div>
 			</div>
-		</section>
-		
-		
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-			<div class="text-center">
-				<h4 class="text-uppercase mb-4">Sur le Web</h4>
-				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i class="fab fa-fw fa-github"></i></a>
-				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i class="fab fa-fw fa-itch-io"></i></a>
-				<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
-			</div>
-            <div class="container"><small>Copyright © 2022</small></div>
-        </div>
-		
+			<div class="row justify-content-start">
+				<div class="col-7">
+					<img class="mb-5 rounded-circle " src="../assets/img/photo.png" alt="Avatar" style="width:250px;" />
+				</div>
+				<div class="col-5">
+					<h2 class="mb-4">A propos de moi</h2>
+					<p class="text-left mb-4">Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée.
+						Actuellement en BUT Informatique 3ème année. Créateur de nombreux projets dans le domaine du jeu
+						vidéo.</p>
+				</div>
 
-		<!-- Bootstrap core JS-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</body>
-	
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2022</small></div>
+	</div>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
 
 </html>
