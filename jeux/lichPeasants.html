@@ -24,147 +24,118 @@
 
 <body id="page-top">
 	<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">Julien Oudot</a>
-			<button
-				class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-info text-white rounded"
-				type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation">
-				Menu
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
 				<i class="fas fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="../index.html">Accueil</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a
-							class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="../portfolio.html">Portfolio</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="../but.html">BUT</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="../aPropos.html">A propos</a></li>
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a class="active" href="../portfolio.html">Portfolio</a></li>
+					<li><a href="../about.html">A propos</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 
-	<section class="masthead bg-info text-light" id="aPropos">
-		<div class="container">
-			<a class="btn btn-primary mb-4" href="../portfolio.html">Retour au portfolio</a>
-			<h2 class="font-weight-bold pb-4">Lich & Peasants</h2>
-			<p class="font-weight-bold pb-2">Lich & Peasants est un jeu de stratégie crée pour la GMTK Game Jam 2023.
-			</p>
-			<p class=" pb-4">Le joueur contrôle une liche et doit empêcher des paysans de venir détruire ses artefacts
-				magiques.</p>
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
 
-			<div class="row content-start-justify">
-				<div class="col-4">
-					<h3 class="text-warning pb-2">Langage</h3>
-					<p>C#</p>
-					<p>Unity</p>
-				</div>
-				<div class="col-4">
-					<h3 class="text-warning pb-2">Type de Jeu</h3>
-					<p>Stratégie</p>
-				</div>
-				<div class="col-4">
-					<h3 class="text-warning pb-2">Temps de développement</h3>
-					<p>2 jours</p>
-				</div>
-			</div>
-			<div class="text-center my-5">
-				<img class="img-fluid" src="../assets/img/portfolio/LP.png" alt="MainLogo">
-			</div>
-			<div class="row">
-				<div class="col-6">
-					<h3 class="text-warning pb-2">Caractéristiques du jeu</h3>
-					<p>
-						- Le thème de la Game Jam était "Rôles inversés". C'est pour cela qu'on joue le rôle du méchant
-						dans l'histoire. La page et la description du jeu ont aussi été écrit pour faire croire que l'on
-						va jouer le rôle des gentils paysans.
-						<br></br>
-						- Le joueur doit empêcher les paysans d'atteindre la salle de la liche. Toute les salles saufs
-						celles adjacentes à celle de la liche sont par défaut obscurcis.
-						<br></br>
-						- Pour réussir. Il doit utiliser les différentes runes de la liche pour voir, effrayer ou brûler
-						les paysans dans une salle. Certains paysans sont résistants au sort de flamme et au sort pour
-						effrayer.
-						<br></br>
-						- On gagne quand on a survécu suffisamment longtemps, ou quand tout les paysans sont mort.
-						<br><br>
-						- Il y a une campagne de quelques niveaux, ainsi qu'un mode sans fin ou le manoir de la liche
-						est généré procéduralement.
-					</p>
-				</div>
-				<div class="col-6">
-					<img class="img-fluid pb-2" src="../assets/img/screenshots/lichPeasants/1.png" alt="screenShot">
-				</div>
-				<div class="col-4">
-					<img class="img-fluid" src="../assets/img/screenshots/lichPeasants/2.png" alt="screenShot">
-				</div>
-				<div class="col-4">
-					<img class="img-fluid" src="../assets/img/screenshots/lichPeasants/3.png" alt="screenShot">
-				</div>
-				<div class="col-4">
-					<img class="img-fluid" src="../assets/img/screenshots/lichPeasants/4.png" alt="screenShot">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="page-section portfolio" id="Download">
-		<div class="container my-5 text-center">
-			<div class="divider-custom">
-				<div class="divider-custom-line  mt-3"></div>
-			</div>
-			<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold">Jouer à ce jeu</h2>
-			<iframe frameborder="0" src="https://itch.io/embed/2155069" width="552" height="167"><a
-					href="https://helisoya.itch.io/lich-peasants">Lich &amp; Peasants by helisoya,
-					VillerotJustin</a></iframe>
-		</div>
-	</section>
-
-	<section class="page-section portfolio bg-info" id="aPropos">
-		<div class="container mt-5 text-center text-light">
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line  mt-5"></div>
-			</div>
-			<h2 class="page-section-heading text-center mb-5 font-weight-bold">A propos de moi</h2>
-			<div class="row mb-5 justify-content-center">
-
-				<div class="col-4">
-					<div class="mb-3">
-						<i class="fas fa-envelope mr-3"></i>
-						<span>Mail</span>
-					</div>
-					<p><strong>oudot.julien@laposte.net</strong></p>
-				</div>
-				<div class="col-4">
-					<div class="mb-3">
-						<i class="fas fa-download mr-3"></i>
-						<span>CV</span>
-					</div>
-					<p><a href="../cv.pdf"><strong>Télécharger</strong></a></p>
-				</div>
-			</div>
 			<div class="row justify-content-start">
-				<div class="col-7">
-					<img class="mb-5 rounded-circle " src="../assets/img/photo.png" alt="Avatar" style="width:250px;" />
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">Licht & Peasants (2023)</h2>
+					<p class="font-weight-bold pb-2">Lich & Peasants est un jeu de stratégie crée pour la GMTK
+						Game Jam 2023.</p>
+					<p class=" pb-4">Le joueur contrôle une liche et doit empêcher des paysans de venir détruire
+						ses artefacts
+						magiques.</p>
 				</div>
-				<div class="col-5">
-					<h2 class="mb-4">A propos de moi</h2>
-					<p class="text-left mb-4">Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée.
-						Actuellement en BUT Informatique 3ème année. Créateur de nombreux projets dans le domaine du jeu
-						vidéo.</p>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/LP.png" alt="MainLogo">
 				</div>
+			</div>
 
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Langage</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Type de Jeu</h3>
+						<p class="text-center text-dark">Stratégie</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Temps de dev</h3>
+						<p class="text-center text-dark">2 jours</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
+	</header>
 
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Caractéristiques du jeu</h3>
+				<p>
+					- Le thème de la Game Jam était "Rôles inversés". C'est pour cela qu'on joue le rôle du
+					méchant
+					dans l'histoire. La page et la description du jeu ont aussi été écrit pour faire croire que
+					l'on
+					va jouer le rôle des gentils paysans.
+					<br></br>
+					- Le joueur doit empêcher les paysans d'atteindre la salle de la liche. Toute les salles
+					saufs
+					celles adjacentes à celle de la liche sont par défaut obscurcis.
+					<br></br>
+					- Pour réussir. Il doit utiliser les différentes runes de la liche pour voir, effrayer ou
+					brûler
+					les paysans dans une salle. Certains paysans sont résistants au sort de flamme et au sort
+					pour
+					effrayer.
+					<br></br>
+					- On gagne quand on a survécu suffisamment longtemps, ou quand tout les paysans sont mort.
+					<br><br>
+					- Il y a une campagne de quelques niveaux, ainsi qu'un mode sans fin ou le manoir de la
+					liche
+					est généré procéduralement.
+				</p>
+			</div>
+			<div class="mt-5 col-6">
+				<img class="img-fluid pb-2" src="../assets/img/screenshots/LichPeasants/1.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LichPeasants/2.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LichPeasants/3.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LichPeasants/4.png" alt="screenShot">
+			</div>
+		</div>
+
+		<section class="page-section portfolio" id="Download">
+			<div class="container my-5 text-center">
+				<div class="divider-custom">
+					<div class="divider-custom-line  mt-3"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold">Jouer à ce jeu</h2>
+				<iframe frameborder="0" src="https://itch.io/embed/2155069" width="552" height="167"><a
+						href="https://helisoya.itch.io/lich-peasants">Lich &amp; Peasants by helisoya,
+						VillerotJustin</a></iframe>
+			</div>
+		</section>
+	</section>
 
 	<!-- Copyright Section-->
 	<div class="copyright py-4 text-center text-white">
