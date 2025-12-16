@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="../index.html">Home</a></li>
+					<li><a class="active" href="../portfolio.html">Portfolio</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../../french/engines/anf.html"><img src="../../assets/img/english.png"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">Adventure Novel Framework (ANF)</h2>
+					<p class="font-weight-bold pb-2">ANF is a framework that I'm working on since 2020. It was used for many projects.</p>
+					<p class=" pb-4">At its core, it is a framework for visual novels / point & clicks. It was however reused for other types of games.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../../assets/img/portfolio/ANF.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Language</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Type</h3>
+						<p class="text-center text-dark">Framework</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center">Dev time</h3>
+						<p class="text-center text-dark">2021-2026</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Framework history</h3>
+				<p>
+					ANF is a framework initially used to create 2D Visual Novels. It evolved over time and is now a framework focused on the creation of 3D non-linear point & click / visual novel.
+					As a result, it had during the past few years different forms, and even names. You can distinguish 4 phases in its evolution:
+					<br></br>
+					- <b>The pre-framwork phase</b> was the first phase of the framework.
+
+					It includes the first Harold's Quest games made at the time in Python and Javascript. 
+					Initially, it consisted simply of functions allowing the display of dialogues and the activation of events. 
+					It was still necessary to code the game in python, even if the functions made the work easier. 
+					The first real version of the framework was created with Harold's Quest 2. The game used a handmade game engine and allowed its user to create a visual novel almost without having to touch python code. 
+					Although this version was functional, it had some flaws (poor memory management, internal representation of dialogues not effective enough, ...) which did not make it viable in the long term.
+					<br></br>
+					- <b>The early framework phase</b> was the second phase of the framework. 
+					It includes some Harold's Quest games, but also other games that have nothing to do with the series. 
+					The latter generally reuse the framework's localization system, as well as the script processor. 
+					This phase marks the beginning of the framework on Unity, with a drastic change on its inner working. 
+					The script processor was created to control more simply in-game events, and a first version of ANSL (Adventure Novel Scripting Language) was conceptualized.
+					<br></br>
+					- <b>The modern framework phase</b> was the third phase of the framework.
+
+					It includes the remakes of the Harold's Quest games, but also student projects. 
+					The latter reuse the framework's localization system, as well as the script processor. The twist is that the systems used by these student projects have been modified. 
+					The location system has been improved (performance and accessibility), and a nodal version of ANSL, more accessible for non-programmers, was created. 
+					On the side of Harold's Quest games, this phase marks the transition to 3D point & click. ANSL, the script language of the framework has been reworked to be more accessible and simple to use. 
+					The framework itself has been reworked to be more pleasant to look at and easier to modify afterwards. 
+					In the case of the remake of "Le Joyau du Nord", an alternative version of the framework was created to support the different RPG mechanics of the game.
+					<br></br>
+					- <b>The final phase of the framework</b> will be the fourth phase of the framework. 
+
+					It will represent the creation of a standalone version of the framework, using different parts from previous games. 
+					The localization system will use the version of My Herbarium, and the rest will be inherited from the remake of "Le Joyau du Nord". 
+					Stability changes will be made to the framework to make it more accessible to a larger audience, and accessibility features will be implemented.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2 text-center" src="../../assets/img/engines/ANF/2.png" alt="screenShot">
+				<p class="text-center">Diagram of the evolution of ANF. Games in green inherit the entirety of the framework. Games in yellow inherit only parts of it.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Framework basis</h3>
+				<p>
+					The framework can be broken down into several modules, which are responsible for different parts of the framework.
+					<br></br>
+					- <b>The manager</b> is responsible for managing the other modules and ensuring they are properly synchronized. It also manages player variables (player name, current quests, ...)
+					<br></br>
+					- <b>The world</b> is responsible for the on-screen characters and scenery.
+					<br></br>
+					- <b>Interactions</b> is responsible for the framework's interaction mechanics.
+					<br></br>
+					- <b>The script processor</b> is responsible for translating the ANSL script language into interpretable commands by the framework.
+					<br></br>
+					- <b>The GUI</b> is responsible for the different elements of the framework's UI (pause menu, dialogues, ...).
+					<br></br>
+					- <b>The localization</b> is managed by the framework with a handmade system.
+					<br></br>
+					- <b>The map</b> allows the player to move through one or more maps. This allows for a less linear and more open gaming experience.
+					<br></br><br></br>
+					ANSL (Adventure Novel Scripting Langguage) is the scripting language allowing the user to create games without having to touch too much the framework. 
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANF/1.png" alt="screenShot">
+				<p class="text-center">Diagram of the different modules of ANF</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">ANSL</h3>
+				<p>
+					ANSL is the scripting language of the framework. It is similar in syntax and operation to C# in order to minimize the learning curve. 
+					When interpreting the script, the processor will read the code line by line, and trigger the desired behaviors. 
+					There are two types of "commands": functions and control keywords.
+					<br></br>
+					- <b>The control keywords</b> are <b>if</b>, <b>interact</b>, <b>choice</b>, <b>switch</b>, ... .
+					They trigger a modification in the way the script file is read. 
+					<b>If</b> checks if a player variable has a certain value. If yes, commands are performed. If no, other commands will be.
+					<b>Choice</b> triggers the appearance of a choice, asking for an interaction from the player before continuing. 
+					<b>Interact</b> allows to launch the framework's interaction mode. (It is then necessary to click on a world object to trigger a new script)
+					<br></br>
+					- <b>Functions</b> are the most common commands in ANSL. 
+					They have the format <i>NAME_COMMAND(PARAMETER_1;PARAMETER_2;...;PARAMETER_N)</i>. 
+					These functions allow you to perform a large number of actions, such as displaying a dialogue, modifying player variables, changing the scenery, the weather or the characters, fading, changing the current script, ...
+					<br></br><br></br>
+					A language module for Visual Studio Code was also developed to make it easier to view the code.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANF/3.png" alt="screenShot">
+				<p class="text-center">Example of an ANSL script. It represents the end of a dialog in the remake of "Le Joyau du Nord" (2026)</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">The map</h3>
+				<p>
+					Using the <b>map</b> function in ANSL allows you to open a specific map. This has the effect of opening a map on the screen, allowing the player to move around the world. 
+					It's a way to allow movement in a Point & Click/ Visual Novel game context. 
+					<br></br>
+					The framework can support several maps. It is simply necessary to properly configure them. A map consists of :
+					<br></br>
+					- <b>A visual</b> which represents the region in which the player will move in.
+					<br></br>
+					- <b>Buttons</b> which represent the different points of interest on the map. Clicking a button closes the map and launches a predefined script. 
+					It is also possible to move from map to map with smart use of scripts. 
+					To configure where each button redirect, it is necessary to indicate in a .txt file the informations for each button. 
+					You can also make a button only appear if a condition with a player variable is met. (For example: I can only go to the city hall if the variable <i>canTravel_CityHall</i> is equals to 1) 
+
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="../../assets/img/engines/ANF/4.mp4" allowfullscreen></iframe>
+				</div>
+				<p class="text-center">Example of map movements in "Le Joyau du Nord" (2026)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Interaction mode</h3>
+				<p>
+					The interaction mode allows the user to interact with the environment. 
+					You can interact with objects from the scenery as well as with the characters present on screen. 
+					Clicking on an interactable element will launch a specific ANSL script.
+					To setup the interaction mode, you need to use different ANSL functions to specify the scripts launched by the interactions, or to disable the interaction on certain elements.
+					Finally, just use the keyword <b>interact</b> to launch the interaction mode.
+					<br><br>
+					By default, you can also interact with the bottom of the screen to open the map of the place you are currently in.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="../../assets/img/engines/ANF/5.mp4" allowfullscreen></iframe>
+				</div>
+				<p class="text-center">Example of a serie of interactions in Harold's Quest 2 (2025)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Player variables</h3>
+				<p>
+					Player variables are accessible and modifiable in runtime from ANSL. 
+					They can represent different things, like quests or weather conditions.
+					Many systems use player variables, such as the map system or the quest system in "Le Joyau Du Nord".
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANF/6.png" alt="screenShot">
+				<p class="text-center">Some of the player variables in "Le Joyau du Nord" (2026)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Localization</h3>
+				<p>
+					The framework includes a built-in system for the localization and management of text's size, typography, and color.
+					<br><br>
+					Each localized text is assigned to a "channel". There are 10 of them. 
+					Subsequently, one can modify the information of a channel, which will have the effect of modifying the size, typography, and color of all the texts assigned to the channel.
+					The implementation is based on the use of UnityEvents.
+					<br><br>
+					For translations, several files are created to contain the different texts of the project. There are 2 by default :
+					<br><br>
+					- The <b>system</b> file which regroups the texts related to the different menus. They are generally 'static' and do not need to be modified between each project.
+					<br><br>
+					- The <b>common</b> file that regroups together the "common" text files of the game. In the case of visual novels, these are the texts related to the story that are displayed in the dialog boxes.
+					<br><br>
+					You can create other localization files and load them in runtime. This allows to break down the <b>common</b> file and lighten the system's memory weight.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANF/7.png" alt="screenShot">
+				<p class="text-center">Some of the localization files in the remake of "Le Joyau du Nord" (2026)</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4">On the Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2025</small></div>
+	</div>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>
