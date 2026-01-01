@@ -51,9 +51,10 @@
 			<div class="row justify-content-start">
 				<div class="col-8">
 					<h2 class="font-weight-bold pb-4">Adventure Novel Engine (ANE)</h2>
-					<p class="font-weight-bold pb-2">ANE is a futur game engine that I will working on in 2026.</p>
+					<p class="font-weight-bold pb-2">ANE is a game engine that I'm working on in since late 2025.</p>
 					<p class=" pb-4">
-						It is a game engine that will take the logic behind the ANF framework and translate it to C++ / DirectX11.</p>
+						It is a game engine that takes the logic behind the ANF framework and translates it to C++ /
+						DirectX11.</p>
 				</div>
 				<div class="col-4">
 					<img class="img-fluid" src="../../assets/img/portfolio/ANE.png" alt="MainLogo">
@@ -75,7 +76,7 @@
 					</div>
 					<div class="col-3 ml-1 information-box background-light-orange">
 						<h3 class="text-warning pb-2 text-center">Dev time</h3>
-						<p class="text-center text-dark">2026-???</p>
+						<p class="text-center text-dark">2025-???</p>
 					</div>
 				</div>
 			</div>
@@ -85,10 +86,66 @@
 	<section class="background-light-orange" id="last-project">
 		<div class="row mx-5">
 			<div class="col-6">
-				<h3 class="text-warning pb-2">Engine history</h3>
+				<h3 class="text-warning pb-2">Engine basis</h3>
 				<p>
-					ANE's developpment hasn't really started yet. If you want informations about what it will look like when finished, I invite you to look at the description of the Adventure Novel Framework (ANF).
+					The engine can be broken down into several modules, which are responsible for different parts of the
+					engine.
+					<br></br>
+					- <b>The manager</b> is responsible for managing the other modules and ensuring they are properly
+					synchronized. It
+					also manages player variables (player name, current quests, ...)
+					<br></br>
+					- <b>The world</b> is responsible for the on-screen characters and scenery.
+					<br></br>
+					- <b>Interactions</b> is responsible for the engine's interaction mechanics.
+					<br></br>
+					- <b>The script processor</b> is responsible for translating the ANSL script language into
+					interpretable commands by
+					the engine.
+					<br></br>
+					- <b>The GUI</b> is responsible for the different elements of the engine's UI (pause menu,
+					dialogues, ...).
+					<br></br>
+					- <b>The localization</b> is managed by the engine with a handmade system.
+					<br></br>
+					- <b>The map</b> allows the player to move through one or more maps. This allows for a less linear
+					and more open
+					gaming experience.
+					<br></br><br></br>
+					ANSL (Adventure Novel Scripting Langguage) is the scripting language allowing the user to create
+					games without
+					having to touch the engine.
 				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANE/1.png" alt="screenShot">
+				<p class="text-center">Diagram of the different modules of ANe</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2">Scene Editor</h3>
+				<p>
+					A scene editor, implemented with ImGui, was added to facilitate the creation of backgrounds for a
+					game. It allows to :
+					<br></br>
+					- Visualise the various scenes of the project, as well as to delete and add scenes.
+					<br></br>
+					- Add and move <b>background elements</b>.
+					<br></br>
+					- Add <b>interaction point</b> and to link them to background elements.
+					<br></br>
+					- Add and move <b>markers</b>. They are used later to move characters with ANSL.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../../assets/img/engines/ANE/2.png" alt="screenShot">
+				<p class="text-center">Example of a scene in the scene editor. The character represents a marker. The
+					checkboard object on the bottom of the screen represents an interaction zone.</p>
 			</div>
 		</div>
 	</section>
